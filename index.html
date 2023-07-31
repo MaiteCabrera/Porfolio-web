@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Maite Cabrera</title>
+</head>
+
+<body>
+  <!--sección inicio-->
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <h1>Maite Cabrera</h1>
+          <nav id="nav" class="">
+            <ul id="link">
+              <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+              <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+              <li><a href="#servicios" onclick="seleccionar(this)" >Educación</a></li>
+              <li><a href="#skills" onclick="seleccionar(this)" >Habilidades</a></li>
+              <li><a href="#portfolio" onclick="seleccionar(this)" >Proyectos</a></li>
+              <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+            </ul>
+          </nav>
+
+          <!-- Iconos del menu responsive -->
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <!--Iconos de las redes sociales-->
+          <div class="redes">
+            <a href="https://github.com/MaiteCabrera"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/maite-cabrera/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:maitecabrera11@gmail.com"><i class="fa-solid fa-envelope"> </i></a>
+            <a href="https://t.me/MaiteCabrera"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+
+      </header>
+      <div class="presentacion">
+        <p class="bienvenida">BIENVENIDOS</p>
+        <h2>Hola, soy Maite Cabrera</h2>
+        <p class="descripcion">Porfolio web en construcción.</p>
+        <a href="/pdf/Maite Cabrera CV.pdf">Descarga mi CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Sección Sobre Mi -->
+  <section id="sobremi">
+    <div class="contenedor-foto">
+      <img src="img/MaiteRocioYasminCabrera  .jpg" alt="">
+    </div>
+    <div class="sobremi">
+      <p class="titulo-seccion">Sobre Mi</p>
+      <h2>Maite Cabrera</h2>
+      <h3>Programadora trainee</h3>
+      <p>Tengo 26 años, busco mi primer trabajo en el rubro IT. </p>
+      <p>Estudio programación de manera autodidacta.</p>
+      <p>Me gusta el anime y la música fuerte. Estoy estudiando <a href="https://www.chinesetest.cn/userFace/newScorePrint_2022/H22238501010020023_a871a4c5-4480-4fd6-a222-2da6b9067697.pdf?A=0.6701380014427711">Chino Mandarín(HSK2)</a> 
+         e <a href="/pdf/certificado/Maite_Cabrera_benchmark_certificate_25_06_2023.pdf"> Inglés(A2/B1)</a>.</p>
+      <p>Este sitio web lo realice con tutoriales de youtube y cursos anteriores.</p>
+      <p>Si tenes alguna recomendación de como mejorarlo, <a href="#contacto">contactame</a>.</p>
+
+    </div>
+  </section>
+
+  <!--SECCION EDUCACION-->
+  <section id="servicios">
+    <h3 class="titulo-seccion">Educación</h3>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Análisis de Datos</h4>
+        <hr>
+        <p> <strong>Google | Coursera</strong></p>
+        <p>Serie de 8 cursos</p>
+        <p><strong>Herramientas:</strong> hojas de cálculo,
+          SQL, Tableau y programación en R.
+          <strong>Habilidades:</strong> Limpieza de datos, resolución de
+          problemas, pensamiento crítico, ética de datos y
+          visualización de datos</p>
+          <p>Data Analysis | Data Visualization</p>
+          <ul class="servicios-tag">
+            <li>Junio-2023</li>
+            <li>Enero-2024</li>
+          </ul>
+        <div class="info">
+          <a href="https://www.coursera.org/programs/grow-with-google-wmruk/professional-certificates/analisis-de-datos-de-google">En curso</a>
+        </div>
+      </div>
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Diseño de Experiencia del Usuario (UX)</h4>
+        <hr>
+        <p> <strong>Google | Coursera</strong></p>
+        <p>Serie de 7 cursos</p>
+        <p><strong>Herramientas:</strong> Figma y Adobe XD.
+          <strong>Habilidades:</strong> Controlar el proceso de diseño.
+          Prototipos y soluciones de diseños.</p>
+          <p>User Experience | Problem Solving</p>
+          <ul class="servicios-tag">
+            <li>Junio-2023</li>
+            <li>Enero-2024</li>
+          </ul>
+        <div class="info">
+          <a href="https://www.coursera.org/programs/grow-with-google-wmruk/professional-certificates/diseno-de-experiencia-del-usuario-ux-de-google#courses">En curso</a>
+        </div>
+      </div>
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Soporte de Tecnologías de la Información</h4>
+        <hr>
+        <p><strong>Google | Coursera</strong></p>
+        <p>Serie de 5 cursos</p>
+        <p> <strong>Nivel inicial en soporte de tecnologías de la
+          información (TI) </strong> </p>
+          <p>Operating Systems | Strategy and Operations | Computer Networking</p>
+        <ul class="servicios-tag">
+          <li>Junio-2023</li>
+          <li>Enero-2024</li>
+        </ul>
+        <div class="info">
+          <a href="https://www.coursera.org/programs/grow-with-google-wmruk/professional-certificates/soporte-de-tecnologias-de-informacion-google">En curso</a>
+        </div>
+      </div>
+      <!--
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Gestión de Proyectos</h4>
+        <hr>
+        <p><strong>Google | Coursera</strong></p>
+        <p>Serie de 6 cursos</p>
+        <p><strong>Creación de documentación, metodología Agile, Scrum, etc.</strong></p>
+        <ul class="servicios-tag">
+          <li>Junio-2023</li>
+          <li>Enero-2024</li>
+        </ul>
+        <div class="info">
+          <a href="#">En curso</a>
+        </div>
+      </div>
+      -->
+      
+    </div>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Testing Manual y Ágil</h4>
+        <hr>
+        <p><strong> UTN | Argentina Programa 4.0</strong></p>
+        <p>Pruebas de <strong>calidad de software</strong> </p>
+        <p>Pruebas de usabilidad, seguridad, performance y portabilidad</p>
+        <ul class="servicios-tag">
+          <li>Febrero-2023</li>
+          <li>Abril-2023</li>
+        </ul>
+        <div class="info">
+          <a href="/pdf/certificado/TESTING_CERTIFICADO_UTN.pdf">Certificado</a>
+        </div>
+      </div>
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Big Data - Data Science </h4>
+        <hr>
+        <p> <strong>Codo a codo 4.0 | Buenos Aires</strong> </p>
+        <p> <strong>Análisis de Datos, SQL
+          Python,Business Intelligence
+          Google Sheets y Google Data Studio</strong> 
+          </p>
+        <ul class="servicios-tag">
+          <li>Agosto-2022</li>
+          <li>Diciembre-2023</li>
+        </ul>
+        <div class="info">
+          <a href="/pdf/certificado/BIG DATA CERTIFICADO.pdf">CERTIFICADO</a>
+        </div>
+      </div>
+      <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-code"></i></span>
+        <h4>Full Stack Developer</h4>
+        <hr>
+        <p>#YoProgramo | Argentina Programa</p>
+        <p><strong> HTML CSS Javascript
+           Angular JavaSpring 
+           Programación orientada a objetos(POO)
+           SQL GitHub
+          </strong></p>
+        <ul class="servicios-tag">
+          <li>Octubre-2021</li>
+          <li>Octubre-2022</li>
+        </ul>
+        <div class="info">
+          <a href="/pdf/certificado/EETPF_Certificado YoProgramo.pdf">CERTIFICADO</a>
+        </div>
+      </div>
+
+  </section>
+
+  <!--SECCION SKILLS-->
+  <section class="seccion-skills" id="skills">
+    <h3 class="seccion-titulo"><i class="ri-braces-line"></i> HABILIDADES</h3>
+    <div class="skills-container container grid seccion-border">
+      <!--skill 1 | HTML -->
+      <div class="contenedor-skills">
+        <h3 class="titulo-skills"> </h3>
+
+        <div class="info-skills">
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-html5-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">HTML</h3>
+          </div>
+
+          <!--skill 2-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-css-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">CSS</h3>
+          </div>
+          <!--skill 3-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-javascript-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">JavaScript</h3>
+          </div>
+      <!--skill 4-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-sql-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">SQL</h3>
+          </div>
+      <!--skill 5-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-big-data-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">BIG DATA</h3>
+          </div>
+      <!--skill 6-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-web-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">DISEÑO UX</h3>
+          </div>
+      <!--skill 7-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-BOOTSTRAP-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">BOOTSTRAP</h3>
+          </div>
+      <!--skill 8-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="./img/skills-image/icons8-figma-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">FIGMA</h3>
+          </div>
+          <!--skill 9-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-hojas-de-cálculo-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">GOOGLE SHEET</h3>
+          </div>
+          <!--skill 10-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-SOPORTEIT-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">SOPORTE IT</h3>
+          </div>
+          <!--skill 11-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-atención-al-cliente-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">ATENCIÓN AL CLIENTE</h3>
+          </div>
+          <!--skill 12-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-estudio-visual-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">VISUAL STUDIO</h3>
+          </div>
+          <!--skill 13-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-github-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">GITHUB</h3>
+          </div>
+          <!--skill 14-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-escuchando-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">ESCUCHA ACTIVA</h3>
+          </div>
+          <!--skill 15-->
+          <div class="data-skills">
+            <div class="blob-skills">
+              <img src="/img/skills-image/icons8-trabajo-en-equipo-100.png" alt="skills image">
+            </div>
+            <h3 class="nombre-skills">TRABAJO EN EQUIPO</h3>
+          </div>
+
+      </div>
+  </section>
+
+  <!--SECCION PORFOLIO-->
+  <section id="portfolio">
+    <h3 class="titulo-seccion">Mis Proyectos</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto img/porfolioweb.png" alt="">
+            <a href="link de la misma web"></a>
+            <div class="info">
+                <h4>Porfolio Web Trainee</h4>
+                <p>HTML CSS JavaScript</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto img/ARGPROGRAMA.png" alt="">
+            <div class="info">
+                <h4>Porfolio Argentina Programa </h4>
+                <p>EN CONSTRUCCIÓN </p>
+                <p>FULL STACK JUNIOR </p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/img/proyecto img/entre_masas.jpeg" alt="">
+            <div class="info">
+                <h4>ENTRE MASAS </h4>
+                <p>Página web en construcción</p>
+                <p>Full Stack | Compras online</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- SECCTION C O N T A C T O -->
+
+  <section id="contacto">
+    <h3 class="titulo-seccion">Contactame</h3>
+    <div class="contenedor-form">
+      <form
+      action="https://formspree.io/f/maygqejj"
+      method="POST"
+    >
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre " class="input-mitad" name="name">
+                <input type="email" placeholder="Dirección de Email" class="input-mitad" name="email">
+            </div>
+            <div class="fila">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full" ></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</section>
+
+<!-- SECCION FOOTER -->
+<footer>
+    <p>Todos los derechos reservados MAITE CABRERA- 2023</p>
+    <div class="redes">
+      <a href="https://github.com/MaiteCabrera"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/maite-cabrera/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:maitecabrera11@gmail.com"><i class="fa-solid fa-envelope"> </i></a>
+      <a href="https://t.me/MaiteCabrera"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
